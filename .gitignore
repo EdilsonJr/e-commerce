@@ -1,0 +1,17 @@
+.idea/
+venv/
+db.sqlite3
+
+loja\__pycache__\
+loja\migrations\__pycache__\
+
+pedido\__pycache__\
+pedido\migrations\__pycache__\
+
+perfil\__pycache__\
+perfil\migrations\__pycache__\
+
+produto\__pycache__\
+produto\migrations\__pycache__\
+
+media\produto_imagens
