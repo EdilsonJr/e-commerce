@@ -51,7 +51,8 @@ class AddAoCarrinho(View):
             # TODO: Variação não existe no carrinho
             pass
 
-        return HttpResponse(f'{variacao.produto} {variacao.nome}')
+        # corrigir bug
+        return HttpResponse(f'{variacao.produto}{variacao.nome}')
 
 
 class RemoverDoCarrinho(View):
